@@ -13,8 +13,8 @@ int main() {
         }
 
         // Print asterisks for the pyramid
-        for (int col = 0; col < 2 * row + 1; col++) {
-            cout << "*";
+        for (int col = 0; col <  row + 1; col++) {
+            cout << "* ";
         }
 
         cout << endl;
